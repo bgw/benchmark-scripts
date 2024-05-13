@@ -1,0 +1,10 @@
+[Unit]
+Description=Configure services for benchmarking
+
+[Service]
+Type=oneshot
+ExecStart=/opt/benchmark/setup.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
