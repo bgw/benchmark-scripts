@@ -25,7 +25,7 @@ noise in measurements (within about 1% variation).
 - Provide a `/usr/local/bin/shield` command to enter the `cpuset` shield (with
   `sudo shield bash`).
 
-[cpuset]: https://github.com/SUSE/cpuset/
+[`cpuset`]: https://github.com/SUSE/cpuset/
 
 ## Other Configuration
 
